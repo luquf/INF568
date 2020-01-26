@@ -153,7 +153,7 @@ def shake128(M, d):
         hash_val += byte[::-1]
     return hex(int(hash_val, 2))[2:]
 
-# found on stackoverflow
+""" found on stackoverflow: https://stackoverflow.com/questions/10237926/convert-string-to-list-of-bits-and-viceversa """
 def bits_from_string(s):
     result = []
     for c in s:
@@ -170,7 +170,7 @@ def main():
         exit(0)
     else:
         length = int(sys.argv[1])
-        data = sys.stdin.read() #.strip()
+        data = sys.stdin.read()
         s = shake128(data, int(length))
         print(s)
 if __name__ == "__main__":

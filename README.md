@@ -1,14 +1,8 @@
 # INF568 Shake128 implementation and collisions
 
-## 1. Files
+## 1. Introduction
 
-- __code/shake128.py__ implementation of the shake128 hash function
-- __code/bruteforce.py__ implementation of a brute force algorithm to find collisions
-- __code/floyd.py__ implementation of Floyd's algorithm to find collisions
-- __code/verify_collisions.py__ scripts that verifies the collisions I found
-
-- __collisions-N/ex-i.1__ file containing the first image of the collision
-- __collisions-N/ex-i.2__ file containing the second image of the collision
+This implementation is following the FIPS202 standard. It was developed for the module INF568 Advanced Cryptology.
 
 ## 2. Requirements
 
@@ -18,6 +12,15 @@
 ## 3. Implementation
 
 I chose python as it it faster to implement and easier to debug (debugging was still not fun). Still, the implementation is not very fast compared to what could be done in C.
+
+- __code/shake128.py__ implementation of the shake128 hash function
+- __code/bruteforce.py__ implementation of a brute force algorithm to find collisions
+- __code/floyd.py__ implementation of Floyd's algorithm to find collisions
+- __code/verify_collisions.py__ scripts that verifies the collisions I found
+
+- __collisions-N/ex-i.1__ file containing the first image of the collision
+- __collisions-N/ex-i.2__ file containing the second image of the collision
+
 
 Example hashing with 32 ouput bytes:
 ```
@@ -35,5 +38,11 @@ So I also implemented the collision search using Floyd's algorithm which was les
 
 I found collisions up to 8 bytes of output.
 
+## 5. How to use
+
+```
+python3 shake128.py output_length < stream
+python3 bruteforce.py output_length number_of_appended_bytes
+python3 floyd.py output_length
 
 

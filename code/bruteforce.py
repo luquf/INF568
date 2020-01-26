@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from hashlib import shake_128
 import random, sys, string, time, os
 import shake128

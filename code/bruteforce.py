@@ -32,14 +32,7 @@ if __name__ == "__main__":
             print("## Collision found in", str(time.time()-start), "seconds on " + str(n) + " bytes ##")
             print("1.", data, ">>>", hash_val)
             print("2.", hash_dict[hash_val], ">>>", hash_val)
-            f1 = open(path+"/ex-"+str(nc)+".1", "w+")
-            f2 = open(path+"/ex-"+str(nc)+".2", "w+")
-            f1.write(data)
-            f2.write(hash_dict[hash_val])
-            f1.close()
-            f2.close()
             start = time.time()
-            if nc == 5: exit(0) # 5 collisions are enough
             nc+=1
             i+=1
         else:

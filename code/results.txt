@@ -1,0 +1,31 @@
+## Collision found in 0.002117633819580078 seconds on 1 bytes ##
+leo.berton@polytechnique.edu vj1ojif2ff >>> 92e6
+leo.berton@polytechnique.edu mdudf2pdy4 >>> 92e6
+
+## Collision found in 0.01604151725769043 seconds on 3 bytes ##
+leo.berton@polytechnique.edu 47jc7039uk >>> 27d337
+leo.berton@polytechnique.edu lwpgjnmbpn >>> 27d337
+
+## Collision found in 0.1589982509613037 seconds on 4 bytes ##
+leo.berton@polytechnique.edu ddp2cxfgs3 >>> f40d53db
+leo.berton@polytechnique.edu x2k6lx0tsi >>> f40d53db
+
+## Collision found in 4.124057292938232 seconds on 5 bytes ##
+leo.berton@polytechnique.edu 35u3ewuxxc >>> c4b6b9318b
+leo.berton@polytechnique.edu 5xe0emjm1q >>> c4b6b9318b
+
+## Collision found in 173.67540383338928 seconds on 6 bytes ##
+leo.berton@polytechnique.edu k5t3ctk69b >>> fb05cd3c7e09
+leo.berton@polytechnique.edu hpt2q5rpa4 >>> fb05cd3c7e09
+
+## Collision found in 133.478777885437 seconds on 6 bytes ##
+1. leo.berton@polytechnique.edu wsiuo6x0t4 >>> 4e4c35463121
+2. leo.berton@polytechnique.edu i9b6h0ybwy >>> 4e4c35463121
+
+## Collision found in 1208.5199410915375 on 7 bytes ##
+leo.berton@polytechnique.edu 95f923c386cd8e >>> 63b6ac31b08126
+leo.berton@polytechnique.edu 994640da66e695 >>> 63b6ac31b08126
+
+## Collision found in 3960.910748720169 on 8 bytes ##
+leo.berton@polytechnique.edu 040e54066d6c9c26 >>> 1d0ed10f5575b701
+leo.berton@polytechnique.edu a57e430d31280e38 >>> 1d0ed10f5575b701

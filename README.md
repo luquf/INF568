@@ -40,15 +40,14 @@ I found collisions up to 8 bytes of output.
 
 The time to find collisions was growing exponentially as the output length is growing. The following values are sample values of the time my code takes to find th first collision:
 
-Brute force:
-N = 1 >> 0.00021 sec (brute force)
-N = 2 >> 0.002 sec (brute force)
-N = 3 >> 0.016 sec (brute force)
-N = 4 >> 0.15 sec (brute force)
-N = 5 >> 4 sec (brute force)
-N = 6 >> 173 sec (brute force)
-N = 7 >> 1208 sec (floyd)
-N = 8 >> 3960 sec (floyd)
+- N = 1 => 0.00021 sec (brute force)
+- N = 2 => 0.002 sec (brute force)
+- N = 3 => 0.016 sec (brute force)
+- N = 4 => 0.15 sec (brute force)
+- N = 5 => 4 sec (brute force)
+- N = 6 => 173 sec (brute force)
+- N = 7 => 1208 sec (floyd)
+- N = 8 => 3960 sec (floyd)
 
 ## 5. How to use
 

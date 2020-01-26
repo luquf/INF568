@@ -49,6 +49,8 @@ The time to find collisions was growing exponentially as the output length is gr
 - N = 7 => 1208 sec (floyd)
 - N = 8 => 3960 sec (floyd)
 
+Conclusion: brute force is working well for small output length but after 6 bytes output I have to use floyd's alfgorithm
+
 ## 5. How to use
 
 ```

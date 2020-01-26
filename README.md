@@ -2,13 +2,13 @@
 
 ## 1. Files
 
-__code/shake128.py__ implementation of the shake128 hash function
-__code/bruteforce.py__ implementation of a brute force algorithm to find collisions
-__code/floyd.py__ implementation of Floyd's algorithm to find collisions
-__code/verify_collisions.py__ scripts that verifies the collisions I found
+- __code/shake128.py__ implementation of the shake128 hash function
+- __code/bruteforce.py__ implementation of a brute force algorithm to find collisions
+- __code/floyd.py__ implementation of Floyd's algorithm to find collisions
+- __code/verify_collisions.py__ scripts that verifies the collisions I found
 
-__collisions-N/ex-i.1__ file containing the first image of the collision
-__collisions-N/ex-i.2__ file containing the second image of the collision
+- __collisions-N/ex-i.1__ file containing the first image of the collision
+- __collisions-N/ex-i.2__ file containing the second image of the collision
 
 ## 2. Requirements
 
